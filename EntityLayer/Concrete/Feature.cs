@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concrete
 {
-    public class Feature
+    public class FeatureDto
     {
         [Key]
         public int FeatureId { get; set; }

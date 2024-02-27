@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Concrete.EntityFramework
 {
-    public class EfGuideDal : EfGenericRepository<Guide>, IGuideDal
+    public class EfGuideDal : EfGenericRepository<GuideDto>, IGuideDal
     {
         public EfGuideDal(DbContext context) : base(context)
         {

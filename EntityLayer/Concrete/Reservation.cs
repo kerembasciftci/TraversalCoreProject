@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concrete
 {
-    public class Reservation
+    public class ReservationDto
     {
         public int ReservationId { get; set; }
         public int AppUserId { get; set; }
@@ -14,7 +14,7 @@ namespace EntityLayer.Concrete
         public string ChildrenCount { get; set; }
         public string AdultCount { get; set; }
         public int DestinationId { get; set; }
-        public Destination Destination { get; set; }
+        public DestinationDto Destination { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public string Details { get; set; }

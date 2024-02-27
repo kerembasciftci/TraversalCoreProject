@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface INewsLetterDal:IGenericRepository<NewsLetter>
+    public interface INewsLetterDal:IGenericRepository<NewsLetterDto>
     {
     }
 }

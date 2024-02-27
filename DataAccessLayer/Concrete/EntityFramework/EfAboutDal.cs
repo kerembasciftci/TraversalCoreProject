@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Concrete.EntityFramework
 {
-    public class EfAboutDal : EfGenericRepository<About>, IAboutDal
+    public class EfAboutDal : EfGenericRepository<AboutDto>, IAboutDal
     {
         public EfAboutDal(DbContext context) : base(context)
         {

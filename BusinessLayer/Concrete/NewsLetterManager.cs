@@ -11,32 +11,32 @@ namespace BusinessLayer.Concrete
 {
     public class NewsLetterManager : INewsLetterService
     {
-        public Task AddAsync(NewsLetter entity)
+        public Task AddAsync(NewsLetterDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(NewsLetter entity)
+        public void Delete(NewsLetterDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<NewsLetter> GetAll()
+        public IQueryable<NewsLetterDto> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<NewsLetter> GetByIdAsync(int id)
+        public Task<NewsLetterDto> GetByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(NewsLetter entity)
+        public void Update(NewsLetterDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<NewsLetter> Where(Expression<Func<NewsLetter, bool>> expression)
+        public IQueryable<NewsLetterDto> Where(Expression<Func<NewsLetterDto, bool>> expression)
         {
             throw new NotImplementedException();
         }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Abstract
 {
-    public interface IDestinationService:IGenericService<Destination>
+    public interface IDestinationService:IGenericService<DestinationDto>
     {
     }
 }

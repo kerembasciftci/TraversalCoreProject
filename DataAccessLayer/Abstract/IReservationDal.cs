@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface IReservationDal:IGenericRepository<Reservation>
+    public interface IReservationDal:IGenericRepository<ReservationDto>
     {
     }
 }

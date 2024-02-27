@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Concrete.EntityFramework
 {
-    public class EfTestimonialDal : EfGenericRepository<Testimonial>, ITestimonialDal
+    public class EfTestimonialDal : EfGenericRepository<TestimonialDto>, ITestimonialDal
     {
         public EfTestimonialDal(DbContext context) : base(context)
         {

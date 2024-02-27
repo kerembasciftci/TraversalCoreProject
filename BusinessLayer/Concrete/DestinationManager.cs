@@ -11,32 +11,32 @@ namespace BusinessLayer.Concrete
 {
     public class DestinationManager : IDestinationService
     {
-        public Task AddAsync(Destination entity)
+        public Task AddAsync(DestinationDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(Destination entity)
+        public void Delete(DestinationDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<Destination> GetAll()
+        public IQueryable<DestinationDto> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<Destination> GetByIdAsync(int id)
+        public Task<DestinationDto> GetByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Destination entity)
+        public void Update(DestinationDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<Destination> Where(Expression<Func<Destination, bool>> expression)
+        public IQueryable<DestinationDto> Where(Expression<Func<DestinationDto, bool>> expression)
         {
             throw new NotImplementedException();
         }

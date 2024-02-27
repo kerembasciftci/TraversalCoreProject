@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Concrete.EntityFramework
 {
-    public class EfNewsLetterDal : EfGenericRepository<NewsLetter>, INewsLetterDal
+    public class EfNewsLetterDal : EfGenericRepository<NewsLetterDto>, INewsLetterDal
     {
         public EfNewsLetterDal(DbContext context) : base(context)
         {

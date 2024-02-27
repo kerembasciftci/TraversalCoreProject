@@ -11,32 +11,32 @@ namespace BusinessLayer.Concrete
 {
     public class SubAboutManager : ISubAboutService
     {
-        public Task AddAsync(SubAbout entity)
+        public Task AddAsync(SubAboutDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(SubAbout entity)
+        public void Delete(SubAboutDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<SubAbout> GetAll()
+        public IQueryable<SubAboutDto> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<SubAbout> GetByIdAsync(int id)
+        public Task<SubAboutDto> GetByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(SubAbout entity)
+        public void Update(SubAboutDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<SubAbout> Where(Expression<Func<SubAbout, bool>> expression)
+        public IQueryable<SubAboutDto> Where(Expression<Func<SubAboutDto, bool>> expression)
         {
             throw new NotImplementedException();
         }

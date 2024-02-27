@@ -11,32 +11,32 @@ namespace BusinessLayer.Concrete
 {
     public class ReservationManager : IReservationService
     {
-        public Task AddAsync(Reservation entity)
+        public Task AddAsync(ReservationDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(Reservation entity)
+        public void Delete(ReservationDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<Reservation> GetAll()
+        public IQueryable<ReservationDto> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<Reservation> GetByIdAsync(int id)
+        public Task<ReservationDto> GetByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Reservation entity)
+        public void Update(ReservationDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<Reservation> Where(Expression<Func<Reservation, bool>> expression)
+        public IQueryable<ReservationDto> Where(Expression<Func<ReservationDto, bool>> expression)
         {
             throw new NotImplementedException();
         }

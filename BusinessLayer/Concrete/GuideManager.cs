@@ -11,32 +11,32 @@ namespace BusinessLayer.Concrete
 {
     public class GuideManager : IGuideService
     {
-        public Task AddAsync(Guide entity)
+        public Task AddAsync(GuideDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(Guide entity)
+        public void Delete(GuideDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<Guide> GetAll()
+        public IQueryable<GuideDto> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<Guide> GetByIdAsync(int id)
+        public Task<GuideDto> GetByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Guide entity)
+        public void Update(GuideDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<Guide> Where(Expression<Func<Guide, bool>> expression)
+        public IQueryable<GuideDto> Where(Expression<Func<GuideDto, bool>> expression)
         {
             throw new NotImplementedException();
         }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface ITestimonialDal:IGenericRepository<Testimonial>
+    public interface ITestimonialDal:IGenericRepository<TestimonialDto>
     {
     }
 }

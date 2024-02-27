@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface IGuideDal:IGenericRepository<Guide>
+    public interface IGuideDal:IGenericRepository<GuideDto>
     {
     }
 }

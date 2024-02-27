@@ -11,32 +11,32 @@ namespace BusinessLayer.Concrete
 {
     public class Feature2Manager : IFeature2Service
     {
-        public Task AddAsync(Feature2 entity)
+        public Task AddAsync(Feature2Dto entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(Feature2 entity)
+        public void Delete(Feature2Dto entity)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<Feature2> GetAll()
+        public IQueryable<Feature2Dto> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<Feature2> GetByIdAsync(int id)
+        public Task<Feature2Dto> GetByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Feature2 entity)
+        public void Update(Feature2Dto entity)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<Feature2> Where(Expression<Func<Feature2, bool>> expression)
+        public IQueryable<Feature2Dto> Where(Expression<Func<Feature2Dto, bool>> expression)
         {
             throw new NotImplementedException();
         }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Validations.FluentValidation
 {
-    public class AboutValidator : AbstractValidator<About>
+    public class AboutValidator : AbstractValidator<AboutDto>
     {
         public AboutValidator()
         {

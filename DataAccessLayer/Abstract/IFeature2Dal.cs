@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface IFeature2Dal:IGenericRepository<Feature2>
+    public interface IFeature2Dal:IGenericRepository<Feature2Dto>
     {
     }
 }

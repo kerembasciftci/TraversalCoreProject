@@ -21,32 +21,32 @@ namespace BusinessLayer.Concrete
 
 
 
-        public async Task AddAsync(Comment entity)
+        public async Task AddAsync(CommentDto entity)
         {
             await _commentDal.AddAsync(entity);
         }
 
-        public void Delete(Comment entity)
+        public void Delete(CommentDto entity)
         {
             _commentDal.Delete(entity);
         }
 
-        public IQueryable<Comment> GetAll()
+        public IQueryable<CommentDto> GetAll()
         {
             return _commentDal.GetAll();
         }
 
-        public async Task<Comment> GetByIdAsync(int id)
+        public async Task<CommentDto> GetByIdAsync(int id)
         {
             return await _commentDal.GetByIdAsync(id);
         }
 
-        public void Update(Comment entity)
+        public void Update(CommentDto entity)
         {
             _commentDal.Update(entity);
         }
 
-        public IQueryable<Comment> Where(Expression<Func<Comment, bool>> expression)
+        public IQueryable<CommentDto> Where(Expression<Func<CommentDto, bool>> expression)
         {
             return _commentDal.Where(expression);
         }

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Concrete.EntityFramework
 {
-    public class EfCommentDal : EfGenericRepository<Comment>, ICommentDal
+    public class EfCommentDal : EfGenericRepository<CommentDto>, ICommentDal
     {
         public EfCommentDal(DbContext context) : base(context)
         {

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Concrete.EntityFramework
 {
-    public class EfReservationDal : EfGenericRepository<Reservation>, IReservationDal
+    public class EfReservationDal : EfGenericRepository<ReservationDto>, IReservationDal
     {
         public EfReservationDal(DbContext context) : base(context)
         {

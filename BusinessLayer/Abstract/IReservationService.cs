@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Abstract
 {
-    public interface IReservationService:IGenericService<Reservation>
+    public interface IReservationService:IGenericService<ReservationDto>
     {
     }
 }

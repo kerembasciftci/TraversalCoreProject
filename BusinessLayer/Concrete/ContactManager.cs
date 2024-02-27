@@ -11,32 +11,32 @@ namespace BusinessLayer.Concrete
 {
     public class ContactManager : IContactService
     {
-        public Task AddAsync(Contact entity)
+        public Task AddAsync(ContactDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(Contact entity)
+        public void Delete(ContactDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<Contact> GetAll()
+        public IQueryable<ContactDto> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<Contact> GetByIdAsync(int id)
+        public Task<ContactDto> GetByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Contact entity)
+        public void Update(ContactDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<Contact> Where(Expression<Func<Contact, bool>> expression)
+        public IQueryable<ContactDto> Where(Expression<Func<ContactDto, bool>> expression)
         {
             throw new NotImplementedException();
         }

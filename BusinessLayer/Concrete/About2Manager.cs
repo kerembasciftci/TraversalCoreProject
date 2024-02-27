@@ -21,32 +21,32 @@ namespace BusinessLayer.Concrete
 
 
 
-        public async Task AddAsync(About2 entity)
+        public async Task AddAsync(About2Dto entity)
         {
             await _about2Dal.AddAsync(entity);
         }
 
-        public void Delete(About2 entity)
+        public void Delete(About2Dto entity)
         {
             _about2Dal.Delete(entity);
         }
 
-        public IQueryable<About2> GetAll()
+        public IQueryable<About2Dto> GetAll()
         {
             return _about2Dal.GetAll();
         }
 
-        public Task<About2> GetByIdAsync(int id)
+        public Task<About2Dto> GetByIdAsync(int id)
         {
             return _about2Dal.GetByIdAsync(id);
         }
 
-        public void Update(About2 entity)
+        public void Update(About2Dto entity)
         {
             _about2Dal.Update(entity);
         }
 
-        public IQueryable<About2> Where(Expression<Func<About2, bool>> expression)
+        public IQueryable<About2Dto> Where(Expression<Func<About2Dto, bool>> expression)
         {
             return _about2Dal.Where(expression);
         }

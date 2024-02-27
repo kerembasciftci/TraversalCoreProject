@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Concrete.EntityFramework
 {
-    public class EfFeatureDal : EfGenericRepository<Feature>, IFeatureDal
+    public class EfFeatureDal : EfGenericRepository<FeatureDto>, IFeatureDal
     {
         public EfFeatureDal(DbContext context) : base(context)
         {

@@ -11,32 +11,32 @@ namespace BusinessLayer.Concrete
 {
     public class TestimonialManager : ITestimonialService
     {
-        public Task AddAsync(Testimonial entity)
+        public Task AddAsync(TestimonialDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(Testimonial entity)
+        public void Delete(TestimonialDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<Testimonial> GetAll()
+        public IQueryable<TestimonialDto> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<Testimonial> GetByIdAsync(int id)
+        public Task<TestimonialDto> GetByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Testimonial entity)
+        public void Update(TestimonialDto entity)
         {
             throw new NotImplementedException();
         }
 
-        public IQueryable<Testimonial> Where(Expression<Func<Testimonial, bool>> expression)
+        public IQueryable<TestimonialDto> Where(Expression<Func<TestimonialDto, bool>> expression)
         {
             throw new NotImplementedException();
         }

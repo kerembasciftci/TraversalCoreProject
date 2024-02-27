@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Concrete.EntityFramework
 {
-    public class EfDestinationDal : EfGenericRepository<Destination>, IDestinationDal
+    public class EfDestinationDal : EfGenericRepository<DestinationDto>, IDestinationDal
     {
         public EfDestinationDal(DbContext context) : base(context)
         {

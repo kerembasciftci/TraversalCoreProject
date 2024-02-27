@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Concrete.EntityFramework
 {
-    public class EfFeature2Dal : EfGenericRepository<Feature2>, IFeature2Dal
+    public class EfFeature2Dal : EfGenericRepository<Feature2Dto>, IFeature2Dal
     {
         public EfFeature2Dal(DbContext context) : base(context)
         {

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface IDestinationDal:IGenericRepository<Destination>
+    public interface IDestinationDal:IGenericRepository<DestinationDto>
     {
     }
 }
